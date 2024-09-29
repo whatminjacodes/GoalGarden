@@ -1,33 +1,39 @@
 # Gradle files
-.gradle/
-build/
+goal-garden/.gradle/
+goal-garden/build/
+goal-garden/app/build/
 
 # Local configuration file (sdk path, etc)
-local.properties
+goal-garden/local.properties
 
 # Log/OS Files
-*.log
+goal-garden/*.log
 
 # Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
+goal-garden/captures/
+goal-garden/.externalNativeBuild/
+goal-garden/.cxx/
+goal-garden/*.apk
+goal-garden/output.json
 
 # IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+goal-garden/*.iml
+goal-garden/.idea/
+goal-garden/misc.xml
+goal-garden/deploymentTargetDropDown.xml
+goal-garden/render.experimental.xml
 
 # Keystore files
-*.jks
-*.keystore
+goal-garden/*.jks
+goal-garden/*.keystore
 
 # Google Services (e.g. APIs or Firebase)
-google-services.json
+goal-garden/google-services.json
 
 # Android Profiling
-*.hprof
+goal-garden/*.hprof
+
+goal-garden/.DS_Store
+
+# Secrets
+goal-garden/secrets.properties
